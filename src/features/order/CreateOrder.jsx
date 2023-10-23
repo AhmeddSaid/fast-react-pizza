@@ -173,8 +173,7 @@ export async function action({ request }) {
     cart: JSON.parse(data.cart),
     priority: data.priority === "true",
   };
-  console.log(data);
-  console.log(order);
+
 
   // form validating
   const errors = {};
