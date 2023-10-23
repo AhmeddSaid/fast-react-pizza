@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     errorElement: <Error />,
     children: [
-      { path: "/", element: <Home /> },
+      { path: "/fast-react-pizza/", element: <Home /> },
       {
         path: "/menu",
         element: <Menu />,
