@@ -119,7 +119,7 @@ function CreateOrder() {
           {!position.latitude && !position.longitude && (
             <span className="right-[3px] top-[3px] z-10 self-end sm:absolute md:right-[5px] md:top-[5px]">
               <Button type="small" onClick={handleFetchAddress}>
-                Get Position
+                Get Location
               </Button>
             </span>
           )}
