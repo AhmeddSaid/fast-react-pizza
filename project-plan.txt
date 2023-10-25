@@ -28,7 +28,7 @@ How To Plan And Build A React Application :-
       - Orders are made by sending a POST request with the order data,
         (user data + selected pizzas) to the API.
       - Payments are made on delivery, so no payment processing is necessary in the app.
-      - Each  order will get a unique ID that should be displayed,
+      - Each order will get a unique ID that should be displayed,
         so the user can later look up their order based on the ID.
       - Users should be able to mark their order as "priority" order,
         even after it has been placed.
