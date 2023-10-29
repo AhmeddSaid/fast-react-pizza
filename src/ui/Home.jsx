@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="my-10 px-4 text-center sm:my-16">
       <h1 className="mb-8 text-xl font-semibold md:text-3xl">
-        The best pizza.
+        The Best Pizza.
         <br />
         <span className="text-yellow-500">
           Straight out of the oven <br />

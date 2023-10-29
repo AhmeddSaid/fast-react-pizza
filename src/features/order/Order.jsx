@@ -13,11 +13,11 @@ import UpdateOrder from "./UpdateOrder";
 // order placeholder
 /* const order = {
   id: "ABCDEF",
-  customer: "Jonas",
+  customer: "Ahmed",
   phone: "123456789",
-  address: "Arroios, Lisbon , Portugal",
+  address: "Al haram, giza, egypt",
   priority: true,
-  estimatedDelivery: "2027-04-25T10:00:00",
+  estimatedDelivery: "2024-10-25T10:00:00",
   cart: [
     {
       pizzaId: 7,
@@ -51,6 +51,7 @@ function Order() {
 
   const fetcher = useFetcher();
 
+  // fetch menu to get ingredients
   useEffect(
     function () {
       if (!fetcher.data && fetcher.state === "idle") {
