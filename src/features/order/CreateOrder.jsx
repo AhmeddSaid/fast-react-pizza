@@ -52,8 +52,8 @@ function CreateOrder() {
     error: errorAddress,
   } = useSelector((state) => state.user);
   const isLoadingAddress = addressStatus === "loading";
-  const isSubmitting = navigation.state === "submitting";
   const navigation = useNavigation();
+  const isSubmitting = navigation.state === "submitting";
   const formErrors = useActionData();
   const dispatch = useDispatch();
 
